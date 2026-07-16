@@ -47,7 +47,7 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Aker was a downtrodden young nobleman, one of the four founders of the kingdom Wild Walley. As a teenager and young adult, he followed his father through military training and small wars, and when he turned 25, his father was unexpectedly killed in battle and the family fell. Since then, he has sought to create his own army and fight for himself as armorer.",
+			"biography" : "Aker was a downtrodden young nobleman, one of the four founders of the kingdom Wild Valley. As a teenager and young adult, he followed his father through military training and small wars, and when he turned 25, his father was unexpectedly killed in battle and the family fell. Since then, he has sought to create his own army and fight for himself as armorer.",
 			"name" : "Aker",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Armorer skill.",
