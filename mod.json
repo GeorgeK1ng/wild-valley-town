@@ -1,24 +1,18 @@
 {
-	"name" : "Wild Valley town",
-	"description" : "Wild Valley town",
+	"name" : "Wild Valley",
+	"description" : "Wild Valley",
+	"modType" : "Town",
 	"author" : "红枫居士",
 	"contact" : "http://vcmi.eu/",
 	"version" : "0.6.0",
 	"language" : "english",
-	//"depends" : ["tidesofWar"],
-	"english" : {
-		"name" : "Wild Valley town",
-		"description" : "VCMI new town."
-	},
 	"czech" : {
 		"name" : "Divoké údolí",
-		"description" : "Nové město pro VCMI."
+		"description" : "Nové město pro VCMI.",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
-	"chinese" : {
-		"name" : "荒谷",
-		"description" : "新城镇荒谷"
-	},
-	"modType" : "Town",
 	"factions" : [
 		"config/wildvalley/town/buildings.json",
 		"config/wildvalley/town/faction.json",
