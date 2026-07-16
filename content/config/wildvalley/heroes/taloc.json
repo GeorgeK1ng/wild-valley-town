@@ -1,0 +1,41 @@
+{
+	"fs_taloc" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"female" : true,
+		"spellbook" : [ "magicArrow" ],
+		"images" : {
+			"large" : "wildvalley/heroes/taloc/large.png",
+			"small" : "wildvalley/heroes/taloc/small.png",
+			"specialtyLarge" : "wildvalley/heroes/taloc/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/taloc/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "sorcery" },
+			{ "level" : "basic", "skill" : "airMagic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Talok was once an elven wizard and had a love affair with Tapio, who played a major role in rescuing captured elves. After this incident, Talok also decided to join the army of the Wikd Valley and live in seclusion with his lovers.",
+			"name" : "Taloc",
+			"specialty" : {
+				"description" : "Casts Magic Arrow with increased effect, based on hero level compared to the level of the target unit (the bonus is greater the lower the target's level).",
+				"tooltip" : "Spell Bonus: Magic Arrow",
+				"name" : "Magic Arrow"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"fs_shaxas" :
+	{
+		"class" : "savage",
+		"images" :
+		{
+			"large" : "wildvalley/heroes/shaxas/large.png",
+			"small" : "wildvalley/heroes/shaxas/small.png",
+			"specialtyLarge" : "wildvalley/heroes/shaxas/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/shaxas/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Shaxas",
+			"biography" : "Shaxas was once a soldier of the Empire, commanding small battles at the level of a thousand men and having a wealth of combat experience. Now he had long since retired and returned to his hometown small town, but the war made his peaceful life impossible, so he had to join the Wild Valley to migrate together. Precisely because Shaxas has commanded major battles, the task of training the swarms is one he will gladly handle.",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Beetles or Golden Beetles by 1 and their Attack and Defense skills by 5% for every 1 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Beetles",
+				"name" : "Beetles",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_pygmy"
+		}		
+	}
+}

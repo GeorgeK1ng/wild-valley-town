@@ -1,0 +1,42 @@
+{
+	"fs_cerna" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"female" : true,
+		"images" : {
+			"large" : "wildvalley/heroes/cerna/large.bmp",
+			"small" : "wildvalley/heroes/cerna/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/cerna/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/cerna/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "archery" }
+		],
+		"specialty": //+1 dmg
+			{
+				"bonuses":{
+				"damage":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": "creatureDamageBoth",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER"
+					}
+				}
+			},
+		"texts" : {
+			"biography" : "Cerna is a wood elf who was rescued in the early days of the Wild Valley forces, she is an excellent elven archer and her years of combat experience have given her many fighting skills. But accidentally during a mission, she was captured by the enemy. Fortunately, she met Wild Valley army in time, so she didn't delay in her mission, and her mission was to free the enslaved forest elves.",
+			"name" : "Cerna",
+			"specialty" : {
+				"description" : "The minimum and maximum creature damage increased by 1.",
+				"tooltip" : "Creature Damage Bonus: +1 Damage to all creatures",
+				"name" : "+1 Damage"
+			}
+		}
+	}
+}

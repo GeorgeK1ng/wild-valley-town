@@ -1,0 +1,41 @@
+{
+	"fs_aker" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"images" : {
+			"large" : "wildvalley/heroes/aker/large.bmp",
+			"small" : "wildvalley/heroes/aker/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/aker/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/aker/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "armorer" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Aker was a downtrodden young nobleman, one of the four founders of the kingdom Wild Walley. As a teenager and young adult, he followed his father through military training and small wars, and when he turned 25, his father was unexpectedly killed in battle and the family fell. Since then, he has sought to create his own army and fight for himself as armorer.",
+			"name" : "Aker",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		}
+	}
+}

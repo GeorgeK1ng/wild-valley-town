@@ -1,0 +1,42 @@
+{
+	"rn_ogma" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"images" : {
+			"large" : "wildvalley/heroes/ogma/large.png",
+			"small" : "wildvalley/heroes/ogma/small.png",
+			"specialtyLarge" : "wildvalley/heroes/ogma/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/ogma/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "luck" },
+			{ "level" : "basic", "skill" : "archery" }
+		],
+		"specialty" : {				
+				"bonuses" : {
+				  "LUCK":	
+					{
+					"type" : "LUCK",
+					"val" : -2,
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"stacking" : "Heroes facing -2 luck specialties"
+					}
+				}
+			},
+		"texts" : {
+			"biography" : "When he was young, Ogma was a handsome man in the empire, and he aspired to join the army in order to earn a noble title. However, it seems that he was possessed by a bad luck god, and he always failed in the army, and had no choice but to leave the army. After discovering by chance that his bad luck can be transferred to others, he rekindles his hope and joins the only army that accepts him, the Wild Walley and prepares to prove himself on the battlefield.",
+			"name" : "Ogma",
+			"specialty" : {
+				"description" : "Luck -2 to the enemy in combat.",
+				"tooltip" : "Enemy -2 Luck",
+				"name" : "-2 Luck"
+			}
+		}
+	}
+}

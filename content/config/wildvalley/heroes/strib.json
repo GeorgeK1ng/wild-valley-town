@@ -1,0 +1,41 @@
+{
+	"fs_strib" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"female" : true,
+		"spellbook" : ["iceBolt"],
+		"images" : {
+			"large" : "wildvalley/heroes/strib/large.png",
+			"small" : "wildvalley/heroes/strib/small.png",
+			"specialtyLarge" : "wildvalley/heroes/strib/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/strib/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "airMagic" },
+			{ "level" : "basic", "skill" : "waterMagic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Strib also does a lot of damage in the mission to free the elves, her magic is unusually strong, and she's also in love with Tapio, so she ends up joining the Wild Valley army as well.",
+			"name" : "Strib",
+			"specialty" : {
+				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater the lower the target's level).",
+				"tooltip" : "Spell Bonus: Ice Bolt",
+				"name" : "Ice Bolt"
+			}
+		}
+	}
+}

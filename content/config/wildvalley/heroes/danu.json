@@ -1,0 +1,42 @@
+{
+	"fs_danu" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"female" : true,
+		"spellbook" : [ "bless" ],
+		"images" : {
+			"large" : "wildvalley/heroes/danu/large.bmp",
+			"small" : "wildvalley/heroes/danu/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/danu/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/danu/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "waterMagic" },
+			{ "level" : "basic", "skill" : "sorcery" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Danu was once a sorceress in the service of the Empire, but she lost many of her comrades and loved ones in the long war and hated war. By chance, Danu came across the migrating army of the Wild Valley, and wanting to find a peaceful place to live, she immediately decided to join the army.",
+			"name" : "Danu",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		}
+	}
+}

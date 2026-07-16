@@ -1,0 +1,45 @@
+{
+	"fs_wrlik" :
+	{
+		"class" : "savage",
+		"female" : true,
+		"images" :
+		{
+			"large" : "wildvalley/heroes/wrlik/large.png",
+			"small" : "wildvalley/heroes/wrlik/small.png",
+			"specialtyLarge" : "wildvalley/heroes/wrlik/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/wrlik/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_pygmy", "max" : 10, "min" : 6 },
+			{ "creature" : "fs_hippogriff", "max" : 1, "min" : 1 },
+			{ "creature" : "fs_hippogriff",  "max" : 1, "min" : 1 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Wrlik",
+			"biography" : "Wrlik was originally a shepherd in the pasture, her family had only a few eagle training skills, and after entering the Wild Valley, she became a fish in water. In the ancient books obtained by the people from the Beetle God Monument, there is a method of taming the shepherd Hippogriffs that is exactly the same as what Wrlik's family learned.",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Hippogriffs or Great Hippogriffs by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Hippogriffs",
+				"name" : "Hippogriffs",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_hippogriff"
+		}		
+	}
+}

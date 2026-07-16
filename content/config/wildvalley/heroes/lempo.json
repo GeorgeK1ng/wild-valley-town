@@ -1,0 +1,41 @@
+{
+	"fs_lempo" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"images" : {
+			"large" : "wildvalley/heroes/lempo/large.bmp",
+			"small" : "wildvalley/heroes/lempo/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/lempo/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/lempo/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "logistics" },
+			{ "level" : "basic", "skill" : "archery" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Lempo was born a hunter, he could shoot and had a wealth of experience. He was once an excellent Imperial Army fighter, able to track down targets even in the most inaccessible places. Later, he became disenchanted with the wars between the nobles and decided to join the Wild Valley to start a peaceful secluded life.",
+			"name" : "Lempo",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics"
+			}
+		}
+	}
+}

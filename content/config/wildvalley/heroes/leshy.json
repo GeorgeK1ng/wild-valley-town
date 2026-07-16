@@ -1,0 +1,40 @@
+{
+	"fs_leshy" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"spellbook" : [ "haste" ],
+		"images" : {
+			"large" : "wildvalley/heroes/leshy/large.bmp",
+			"small" : "wildvalley/heroes/leshy/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/leshy/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/leshy/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "mysticism" },
+			{ "level" : "basic", "skill" : "airMagic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Leshy is the mentor of a magical student in the Wild Valley, he was a powerful man in his youth, but now he is no longer as brave as he once was. But for the sake of his students and their families living in peace in this troubled world, he has taken up magic again to fight for peace.",
+			"name" : "Leshy",
+			"specialty" : {
+				"description" : "Casts Speed with increased effect, based on hero level compared to the level of the target unit (the bonus is greater the lower the target's level).",
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste"
+			}
+		}
+	}
+}

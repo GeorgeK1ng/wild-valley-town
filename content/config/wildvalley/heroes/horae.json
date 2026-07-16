@@ -1,0 +1,46 @@
+{
+	"rn_horae" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"spellbook" : [ "earthquake" ],
+		"images" : {
+			"large" : "wildvalley/heroes/horae/large.bmp",
+			"small" : "wildvalley/heroes/horae/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/horae/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/horae/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "earthMagic" }
+		],
+		"specialty" : 
+			{				
+				"bonuses" : {
+					"earthquake": {
+					"type" : "SPELL",
+					"subtype" : "spell.earthquake",
+					"val" : 3
+				},
+				"maxEarthquake": {
+					"subtype" : "spell.earthquake",
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
+				}
+				}
+			},
+		"texts" : {
+			"biography" : "Once upon a time, Horae was an elven druid who was best at summoning the forces of nature to destroy buildings, but of course could also use them to build structures. One day, the elven village where Horae lived was attacked by a group of foreign creatures, and he was captured and made a slave. Later, the humans from the Wild Valley rescued him, and he decided to stay and help the humans build a new home.",
+			"name" : "Horae",
+			"specialty" : {
+				"name" : "Earthquake",
+				"description" : "Can cast Earthquake spell with increased effectivenes.",
+				"tooltip" : "Spell Bonus: Earthquake"
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"fs_aodh" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"spellbook" : [ "magicArrow" ],
+		"images" : {
+			"large" : "wildvalley/heroes/aodh/large.bmp",
+			"small" : "wildvalley/heroes/aodh/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/aodh/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/aodh/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "firstAid" },
+			{ "level" : "basic", "skill" : "wisdom" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"health" : {
+					"type" : "STACK_HEALTH",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_BASE",
+				}
+			}
+			},
+		"texts" : {
+			"biography" : "Aodh is a petty nobleman from the countryside, one of the four founders of the kingdom Wild Walley. He once traveled across the continent to learn magic from masters, but when war suddenly came to his hometown, he had to interrupt his magic training and return home to help his family find a new, safe place to live.",
+			"name" : "Aodh",
+			"specialty" : {
+				"description" : "Increases the hit points cap of the unit to which it belongs by 10%.",
+				"name" : "+10% Health",
+				"tooltip" : "Health Bonus: Hit Points Cap +10%"
+			}
+		}
+	}
+}
