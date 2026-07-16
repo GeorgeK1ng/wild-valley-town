@@ -207,6 +207,7 @@
 					]
 				},
 				"face" : {
+					"id" : 17,
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5
@@ -232,6 +233,7 @@
 					]
 				},
 				"hordeLvl1" : {
+					"id" : 18,
 					"cost" : {
 						"gold" : 1000
 					},
@@ -240,6 +242,7 @@
 					"upgrades" : "dwellingLvl1"
 				},
 				"hordeUpLvl1" : {
+					"id" : 19,
 					"cost" : {
 						"gold" : 1000
 					},
@@ -263,6 +266,7 @@
 					]
 				},
 				"vault" : {
+					"id" : 21,
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5,
@@ -281,6 +285,7 @@
 					]
 				},
 				"special" : {
+					"id" : 22,
 					"cost" : {
 						"gold" : 500,
 						"ore" : 5
@@ -302,6 +307,7 @@
 					]
 				},
 				"hordeLvl5" : {
+					"id" : 24,
 					"cost" : {
 						"gold" : 1500
 					},
@@ -310,6 +316,7 @@
 					"upgrades" : "dwellingLvl5"
 				},
 				"hordeUpLvl5" : {
+					"id" : 25,
 					"cost" : {
 						"gold" : 1500
 					},
@@ -590,6 +597,7 @@
 					]
 				},
 				"dwellingUpLvl2b" : {
+					"id" : 45,
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -601,6 +609,7 @@
 					"mode" : "auto"
 				},
 				"dwellingAlternateLvl6" : {
+					"id" : 49,
 					"cost" : {
 						"gold" : 4000,
 						"ore" : 12,
@@ -626,6 +635,7 @@
 					]
 				},
 				"dwellingAlternateUpLvl6" : {
+					"id" : 56,
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 15,
