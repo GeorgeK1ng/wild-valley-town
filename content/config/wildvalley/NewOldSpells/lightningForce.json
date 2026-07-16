@@ -43,7 +43,6 @@
 
 		"levels" : {
 			"base" : {
-				"aiValue" : 25,
 				"range" : "0,0",
 
 				"targetModifier" : {
@@ -51,7 +50,7 @@
 				}
 			},
 			"none" : {
-				"description" : "{Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 1 turns.\n",
+				"description" : "{Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becomes paralyzed and unable to attack or retaliate for 1 turns.\n",
 
 				"cost" : 14,
 				"power" : 10,
@@ -68,7 +67,7 @@
 				}
 			},
 			"basic" : {
-				"description" : "{Basic Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 1 turns.\n",
+				"description" : "{Basic Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becomes paralyzed and unable to attack or retaliate for 1 turns.\n",
 
 				"cost" : 11,
 				"power" : 10,
@@ -86,7 +85,7 @@
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 2 turns.\n",
+				"description" : "{Advanced Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becomes paralyzed and unable to attack or retaliate for 2 turns.\n",
 
 				"cost" : 11,
 				"power" : 20,
@@ -104,7 +103,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 2 turns.\n",
+				"description" : "{Expert Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becomes paralyzed and unable to attack or retaliate for 2 turns.\n",
 
 				"cost" : 11,
 				"power" : 50,

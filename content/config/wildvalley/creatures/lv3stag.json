@@ -1,8 +1,8 @@
 {
 	"fs_stag" : {
 		"name" : {
-			"singular" : "Tomb Bettle",
-			"plural" : "Tomb Bettles"
+			"singular" : "Tomb Beetle",
+			"plural" : "Tomb Beetles"
 		},
 		"upgrades" : [
 			"fs_highStag"

@@ -49,11 +49,9 @@
 				"solitary" : {
 					"limiters" : [
 						{
-							"parameters" : [
-								"fs_priestess",
-								true
-							],
-							"type" : "CREATURE_TYPE_LIMITER"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fs_priestess",
+							"includeUpgrades" : true
 						}
 					],
 					"type" : "NO_WALL_PENALTY"
@@ -61,11 +59,9 @@
 				"witch" : {
 					"limiters" : [
 						{
-							"parameters" : [
-								"fs_highPriestess",
-								true
-							],
-							"type" : "CREATURE_TYPE_LIMITER"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fs_highPriestess",
+							"includeUpgrades" : true
 						}
 					],
 					"type" : "NO_WALL_PENALTY"
@@ -73,11 +69,9 @@
 				"solitary2" : {
 					"limiters" : [
 						{
-							"parameters" : [
-								"fs_priestess",
-								true
-							],
-							"type" : "CREATURE_TYPE_LIMITER"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fs_priestess",
+							"includeUpgrades" : true
 						}
 					],
 					"type" : "NO_DISTANCE_PENALTY"
@@ -85,11 +79,9 @@
 				"witch2" : {
 					"limiters" : [
 						{
-							"parameters" : [
-								"fs_highPriestess",
-								true
-							],
-							"type" : "CREATURE_TYPE_LIMITER"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fs_highPriestess",
+							"includeUpgrades" : true
 						}
 					],
 					"type" : "NO_DISTANCE_PENALTY"
@@ -97,10 +89,10 @@
 			}
 		},
 		"texts" : {
-			"biography" : "Kawa was once an elven druid with excellent archery skills, but after enemies attacked the elven village where she lived, she was captured, and then the people of the Wild Valley rescued her. To repay the humans, Kava stayed behind to help raise a long-range army, mostly of women and children who had taken refuge from the war in the Wild Valley, so the army was predominantly female.",
+			"biography" : "Kawa was once an elven druid with excellent archery skills, but after enemies attacked the elven village where she lived, she was captured, and then the people of the Wild Valley rescued her. To repay the humans, Kawa stayed behind to help raise a long-range army, mostly of women and children who had taken refuge from the war in the Wild Valley, so the army was predominantly female.",
 			"name" : "Kawa",
 			"specialty" : {
-				"description" : "Can cast Air Shield spell with increased effectivenes. For Bug Ladies or Bug Lady-Priestesses no wall penalty and no range penalty.",
+				"description" : "Can cast Air Shield spell with increased effectiveness. For Bug Ladies or Bug Lady-Priestesses no wall penalty and no range penalty.",
 				"name" : "Special ",
 				"tooltip" : "Special Bonus: Air Shield and Bug Ladies"
 			}
