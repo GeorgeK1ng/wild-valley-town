@@ -211,7 +211,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl3",
 					"x" : 30,
 					"y" : 118,
-					"z" : 4
+					"z" : 3
 				},
 				"dwellingUpLvl3" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl3",
