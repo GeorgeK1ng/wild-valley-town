@@ -37,11 +37,11 @@
 		],
 		"texts" : {
 			"name" : "Xericks",
-			"biography" : "Xericks, to escape the pursuit of her enemies, joined the Wild Valley with her family. What she didn't expect was that it would become an opportunity for revenge later. The Wild Valley army makes up for the lack of soldiers to protect the safety of every resident, especially the Idol of the Bug God. Due to her pastoral methods, Xericks took special attention, and became the best commander of the Tomb Bettles by right.",
+			"biography" : "Xericks, to escape the pursuit of her enemies, joined the Wild Valley with her family. What she didn't expect was that it would become an opportunity for revenge later. The Wild Valley army makes up for the lack of soldiers to protect the safety of every resident, especially the Idol of the Bug God. Due to her pastoral methods, Xericks took special attention, and became the best commander of the Tomb Beetles by right.",
 			"specialty" : {
-				"description" : "Increases Speed of any Tomb Bettles or Tomb Bettle-Stags by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
-				"tooltip" : "Creature Bonus: Tomb Bettles",
-				"name" : "Tomb Bettles"
+				"description" : "Increases Speed of any Tomb Beetles or Tomb Beetle-Stags by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Tomb Beetles",
+				"name" : "Tomb Beetles"
 			}
 		},
 		"specialty" : {

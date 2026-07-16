@@ -46,7 +46,6 @@
 
 		"levels" : {
 			"base" : {
-				"aiValue" : 20,
 				"targetModifier" : {
 					"smart" : true
 				}

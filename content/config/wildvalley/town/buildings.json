@@ -9,7 +9,6 @@
 						"wood" : 5
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within",
-					"id" : 0,
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
@@ -23,7 +22,6 @@
 						"gems" : 4
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 1,
 					"name" : "Mage Guild Level 2",
 					"upgrades" : "mageGuild1"
 				},
@@ -38,7 +36,6 @@
 						"gems" : 6
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 2,
 					"name" : "Mage Guild Level 3",
 					"upgrades" : "mageGuild2"
 				},
@@ -53,7 +50,6 @@
 						"gems" : 8
 					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 3,
 					"name" : "Mage Guild Level 4",
 					"upgrades" : "mageGuild3"
 				},
@@ -64,7 +60,6 @@
 						"wood" : 5
 					},
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"id" : 5,
 					"name" : "Tavern"
 				},
 				"shipyard" : {
@@ -78,7 +73,6 @@
 						"gems" : 0
 					},
 					"description" : "The Shipyard allows you to purchase ships.",
-					"id" : 6,
 					"name" : "Shipyard"
 				},
 				"fort" : {
@@ -88,7 +82,6 @@
 						"wood" : 20
 					},
 					"description" : "The Fort provides your town with defensive walls.",
-					"id" : 7,
 					"name" : "Fort"
 				},
 				"citadel" : {
@@ -97,7 +90,6 @@
 						"ore" : 5
 					},
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id" : 8,
 					"name" : "Citadel",
 					"upgrades" : "fort"
 				},
@@ -108,13 +100,11 @@
 						"wood" : 10
 					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id" : 9,
 					"name" : "Castle",
 					"upgrades" : "citadel"
 				},
 				"villageHall" : {
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
 					"mode" : "auto",
 					"name" : "Village Hall",
 					"produce" : {
@@ -126,7 +116,6 @@
 						"gold" : 2500
 					},
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id" : 11,
 					"name" : "Town Hall",
 					"requires" : [
 						"tavern"
@@ -141,7 +130,6 @@
 						"gold" : 5000
 					},
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id" : 12,
 					"name" : "City Hall",
 					"requires" : [
 						"allOf",
@@ -165,7 +153,6 @@
 						"gold" : 10000
 					},
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"id" : 13,
 					"name" : "Capitol",
 					"requires" : [
 						"castle"
@@ -181,7 +168,6 @@
 						"wood" : 5
 					},
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id" : 14,
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
@@ -189,9 +175,8 @@
 						"gold" : 5000,
 						"ore" : 5
 					},
-					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
-					"id" : 15,
-					"name" : "Resourse Silo",
+					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
+					"name" : "Resource Silo",
 					"requires" : [
 						"allOf",
 						[
@@ -212,7 +197,6 @@
 						"wood" : 5
 					},
 					"description" : "The Blacksmith provides your armies with First Aid Tents.",
-					"id" : 16,
 					"name" : "Blacksmith",
 					"warMachine" : "firstAidTent",
 					"requires" : [
@@ -227,8 +211,7 @@
 						"gold" : 1000,
 						"ore" : 5
 					},
-					"description" : "The Stone Faces of the Wild Valley gives +1 Knowledge of each hero visiting the city.",
-					"id" : 17,
+					"description" : "The Stone Faces of the Wild Valley gives +1 Knowledge to each visiting hero.",
 					"name" : "Stone Faces",
 					"configuration" : {
 						"visitMode" : "hero",
@@ -252,9 +235,8 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"description" : "The Isolated Сampfire increases weekly production of Beetles by 8 per week.",
-					"id" : 18,
-					"name" : "Isolated Сampfire",
+					"description" : "The Isolated Campfire increases weekly production of Beetles by 8 per week.",
+					"name" : "Isolated Campfire",
 					"upgrades" : "dwellingLvl1"
 				},
 				"hordeUpLvl1" : {
@@ -262,7 +244,6 @@
 						"gold" : 1000
 					},
 					"description" : "The Isolated Fire Pit increases weekly production of Golden Beetles by 8 per week.",
-					"id" : 19,
 					"mode" : "auto",
 					"name" : "Isolated Fire Pit",
 					"requires" : [
@@ -271,7 +252,6 @@
 					"upgrades" : "dwellingUpLvl1"
 				},
 				"ship" : {
-					"id" : 20,
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships.",
 					"upgrades" : "shipyard",
@@ -288,8 +268,7 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"description" : "The Cellars earns your kingdom 500 gold per day.",
-					"id" : 21,
+					"description" : "The Cellars earn your kingdom 500 gold per day.",
 					"name" : "Cellars",
 					"produce" : {
 						"gold" : 500
@@ -306,8 +285,7 @@
 						"gold" : 500,
 						"ore" : 5
 					},
-					"description" : "The Stone Statue gives +2 Attack of each hero visiting the city.",
-					"id" : 22,
+					"description" : "The Stone Statue gives +2 Attack to each visiting hero.",
 					"name" : "Stone Statue",
 					"bonuses" : [
 						{
@@ -328,7 +306,6 @@
 						"gold" : 1500
 					},
 					"description" : "The Spider Shrine increases weekly production of Giant Spiders by 2 per week.",
-					"id" : 24,
 					"name" : "Spider Shrine",
 					"upgrades" : "dwellingLvl5"
 				},
@@ -337,7 +314,6 @@
 						"gold" : 1500
 					},
 					"description" : "The Spider Shrine increases weekly production of Ancient Spiders by 2 per week.",
-					"id" : 25,
 					"mode" : "auto",
 					"name" : "Spider Shrine",
 					"requires" : [
@@ -346,8 +322,7 @@
 					"upgrades" : "dwellingUpLvl5"
 				},
 				"grail" : {
-					"description" : "The Sky Island increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, allows all heroes to use the highest level of air magic, and gives +7 Knowledge and Spellpower of each hero visiting the city.",
-					"id" : 26,
+					"description" : "The Sky Island increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, allows all heroes to use the highest level of air magic, and gives +7 Knowledge and Spell Power to each visiting hero.",
 					"mode" : "grail",
 					"name" : "Sky Island",
 					"bonuses" : [
@@ -365,7 +340,7 @@
 							"type" : "MAGIC_SCHOOL_SKILL",
 							"subtype" : "air",
 							"val" : 3,
-							"propagator" : "PLAYER_PROPAGATOR"
+							"propagator" : "PLAYER"
 						}
 					],
 					"produce" : {
@@ -379,7 +354,6 @@
 						"ore" : 5
 					},
 					"description" : "The Greenhouse allows you to recruit Beetles.",
-					"id" : 30,
 					"name" : "Greenhouse",
 					"requires" : [
 						"fort"
@@ -392,7 +366,6 @@
 						"wood" : 3
 					},
 					"description" : "The Spring Creek allows you to recruit Fireflies.",
-					"id" : 31,
 					"name" : "Spring Creek",
 					"requires" : [
 						"allOf",
@@ -410,9 +383,8 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"description" : "The Dump Tomb allows you to recruit Tomb Bettles.",
-					"id" : 32,
-					"name" : "Dump Tomb",
+					"description" : "The Damp Tomb allows you to recruit Tomb Beetles.",
+					"name" : "Damp Tomb",
 					"requires" : [
 						"allOf",
 						[
@@ -430,7 +402,6 @@
 						"mercury" : 4
 					},
 					"description" : "The Bug Lady Temple allows you to recruit Bug Ladies.",
-					"id" : 33,
 					"name" : "Bug Lady Temple",
 					"requires" : [
 						"allOf",
@@ -449,7 +420,6 @@
 						"gems" : 4
 					},
 					"description" : "The Spider Temple allows you to recruit Giant Spiders.",
-					"id" : 34,
 					"name" : "Spider Temple",
 					"requires" : [
 						"allOf",
@@ -469,7 +439,6 @@
 						"sulfur" : 4
 					},
 					"description" : "The Quiet Oakwood allows you to recruit Treants.",
-					"id" : 35,
 					"name" : "Quiet Oakwood",
 					"requires" : [
 						"allOf",
@@ -495,7 +464,6 @@
 						"gems" : 6
 					},
 					"description" : "The Mantis Temple allows you to recruit Wild Mantises.",
-					"id" : 36,
 					"name" : "Mantis Temple",
 					"requires" : [
 						"allOf",
@@ -516,7 +484,6 @@
 						"wood" : 5
 					},
 					"description" : "The Advanced Greenhouse allows you to recruit Golden Beetles.",
-					"id" : 37,
 					"name" : "Adv. Greenhouse",
 					"upgrades" : "dwellingLvl1",
 					"requires" : [
@@ -533,7 +500,6 @@
 						"ore" : 5
 					},
 					"description" : "The Quiet Spring Creek allows you to recruit Firefly Stalkers.",
-					"id" : 38,
 					"name" : "Quiet Spring Creek",
 					"upgrades" : "dwellingLvl2"
 				},
@@ -542,8 +508,7 @@
 						"gold" : 1000,
 						"ore" : 5
 					},
-					"description" : "The Well-Kept Tomb allows you to recruit Tomb Bettle-Stags.",
-					"id" : 39,
+					"description" : "The Well-Kept Tomb allows you to recruit Tomb Beetle-Stags.",
 					"name" : "Well-Kept Tomb",
 					"requires" : [
 						"allOf",
@@ -559,7 +524,6 @@
 						"mercury" : 5
 					},
 					"description" : "The Advanced Bug Lady Temple allows you to recruit Bug Lady-Priestesses.",
-					"id" : 40,
 					"name" : "Adv. Bug Lady Temple",
 					"upgrades" : "dwellingLvl4",
 					"requires" : [
@@ -576,7 +540,6 @@
 						"gems" : 5
 					},
 					"description" : "The Advanced Spider Temple allows you to recruit Ancient Spiders.",
-					"id" : 41,
 					"name" : "Adv. Spider Temple",
 					"upgrades" : "dwellingLvl5",
 					"requires" : [
@@ -594,7 +557,6 @@
 						"sulfur" : 5
 					},
 					"description" : "The Enchanted Oakwood allows you to recruit Insectivorous Treants.",
-					"id" : 42,
 					"name" : "Enchanted Oakwood",
 					"upgrades" : "dwellingLvl6",
 					"requires" : [
@@ -614,8 +576,7 @@
 						"mercury" : 7,
 						"gems" : 7
 					},
-					"description" : "The Idol of the Bug God allows you to recruit Great Mantis.",
-					"id" : 43,
+					"description" : "The Idol of the Bug God allows you to recruit Great Mantises.",
 					"name" : "Idol of the Bug God",
 					"upgrades" : "dwellingLvl7",
 					"requires" : [
@@ -635,7 +596,6 @@
 						"ore" : 5
 					},
 					"description" : "The Swift Spring Creek allows you to recruit Firefly Hunters.",
-					"id" : 45,
 					"name" : "Swift Spring Creek",
 					"upgrades" : "dwellingUpLvl2",
 					"mode" : "auto"
@@ -648,7 +608,6 @@
 						"sulfur" : 4
 					},
 					"description" : "The Hippogriff Nest allows you to recruit Hippogriffs.",
-					"id" : 49,
 					"name" : "Hippogriff Nest",
 					"requires" : [
 						"allOf",
@@ -674,7 +633,6 @@
 						"sulfur" : 5
 					},
 					"description" : "The Advanced Hippogriff Nest allows you to recruit Great Hippogriffs.",
-					"id" : 56,
 					"name" : "Adv. Hippogriff Nest",
 					"upgrades" : "dwellingAlternateLvl6",
 					"requires" : [

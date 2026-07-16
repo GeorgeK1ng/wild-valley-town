@@ -57,7 +57,7 @@
 			"name" : "Horae",
 			"specialty" : {
 				"name" : "Earthquake",
-				"description" : "Can cast Earthquake spell with increased effectivenes.",
+				"description" : "Can cast Earthquake spell with increased effectiveness.",
 				"tooltip" : "Spell Bonus: Earthquake"
 			}
 		}

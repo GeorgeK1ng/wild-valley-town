@@ -22,7 +22,7 @@
 					"border" : "wildvalley/town/border/citadel",
 					"x" : 82,
 					"y" : 72,
-					"z" : 1
+					"z" : 2
 				},
 				"fort" : {
 					"animation" : "wildvalley/buildings/fort",
@@ -30,7 +30,7 @@
 					"border" : "wildvalley/town/border/fort",
 					"x" : 108,
 					"y" : 76,
-					"z" : 0
+					"z" : 2
 				},
 				"blacksmith" : {
 					"animation" : "wildvalley/buildings/blacksmith",
@@ -62,7 +62,7 @@
 					"border" : "wildvalley/town/border/mageguild1",
 					"x" : 102,
 					"y" : 304,
-					"z" : 8
+					"z" : 12
 				},
 				"mageGuild2" : {
 					"animation" : "wildvalley/buildings/mageguild2",
@@ -70,7 +70,7 @@
 					"border" : "wildvalley/town/border/mageguild2",
 					"x" : 103,
 					"y" : 271,
-					"z" : 9
+					"z" : 12
 				},
 				"mageGuild3" : {
 					"animation" : "wildvalley/buildings/mageguild3",
@@ -78,7 +78,7 @@
 					"border" : "wildvalley/town/border/mageguild3",
 					"x" : 102,
 					"y" : 235,
-					"z" : 10
+					"z" : 12
 				},
 				"mageGuild4" : {
 					"animation" : "wildvalley/buildings/mageguild4",
@@ -86,7 +86,7 @@
 					"border" : "wildvalley/town/border/mageguild4",
 					"x" : 100,
 					"y" : 203,
-					"z" : 11
+					"z" : 12
 				},
 				"shipyard" : {
 					"animation" : "wildvalley/buildings/shipyard",
@@ -127,7 +127,7 @@
 					"border" : "wildvalley/town/border/cityHall",
 					"x" : 490,
 					"y" : 185,
-					"z" : 2
+					"z" : 3
 				},
 				"townHall" : {
 					"animation" : "wildvalley/buildings/townHall",
@@ -135,7 +135,7 @@
 					"border" : "wildvalley/town/border/townHall",
 					"x" : 491,
 					"y" : 219,
-					"z" : 1
+					"z" : 3
 				},
 				"villageHall" : {
 					"animation" : "wildvalley/buildings/villageHall",
@@ -143,7 +143,7 @@
 					"border" : "wildvalley/town/border/villageHall",
 					"x" : 602,
 					"y" : 219,
-					"z" : 0
+					"z" : 3
 				},
 				"dwellingLvl1" : {
 					"animation" : "wildvalley/buildings/dwellingLvl1",
@@ -151,7 +151,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl1",
 					"x" : 29,
 					"y" : 207,
-					"z" : 0
+					"z" : 3
 				},
 				"hordeLvl1" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl1",
@@ -160,7 +160,7 @@
 					"hidden" : true,
 					"x" : 10,
 					"y" : 196,
-					"z" : 1
+					"z" : 3
 				},
 				"dwellingUpLvl1" : {
 					"animation" : "wildvalley/buildings/dwellingHordeLvl1",
@@ -169,7 +169,7 @@
 					"hidden" : true,
 					"x" : 0,
 					"y" : 196,
-					"z" : 2
+					"z" : 3
 				},
 				"hordeUpLvl1" : {
 					"animation" : "wildvalley/buildings/dwellingHordeUpLvl1",
@@ -187,7 +187,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl2",
 					"x" : 181,
 					"y" : 179,
-					"z" : 3
+					"z" : 4
 				},
 				"dwellingUpLvl2" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl2",
@@ -211,7 +211,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl3",
 					"x" : 30,
 					"y" : 118,
-					"z" : 3
+					"z" : 4
 				},
 				"dwellingUpLvl3" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl3",
@@ -243,7 +243,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl5",
 					"x" : 358,
 					"y" : 182,
-					"z" : 0
+					"z" : 3
 				},
 				"dwellingUpLvl5" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl5",
@@ -251,7 +251,7 @@
 					"border" : "wildvalley/town/border/dwellingUpLvl5",
 					"x" : 334,
 					"y" : 174,
-					"z" : 1
+					"z" : 3
 				},
 				"hordeLvl5" : {
 					"animation" : "wildvalley/buildings/dwellingHordeLvl5",
@@ -260,7 +260,7 @@
 					"hidden" : true,
 					"x" : 334,
 					"y" : 174,
-					"z" : 2
+					"z" : 3
 				},
 				"hordeUpLvl5" : {
 					"animation" : "wildvalley/buildings/dwellingHordeUpLvl5",
@@ -278,7 +278,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl6",
 					"x" : 207,
 					"y" : 268,
-					"z" : 6
+					"z" : 7
 				},
 				"dwellingUpLvl6" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl6",
@@ -294,7 +294,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl4",
 					"x" : 259,
 					"y" : 203,
-					"z" : 5
+					"z" : 6
 				},
 				"dwellingUpLvl4" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl4",
@@ -310,7 +310,7 @@
 					"border" : "wildvalley/town/border/dwellingLvl7",
 					"x" : 0,
 					"y" : 0,
-					"z" : 4
+					"z" : 5
 				},
 				"dwellingUpLvl7" : {
 					"animation" : "wildvalley/buildings/dwellingUpLvl7",
@@ -343,7 +343,7 @@
 					"border" : "wildvalley/town/border/face",
 					"x" : 37,
 					"y" : 282,
-					"z" : 10
+					"z" : 11
 				}
 			}
 		}

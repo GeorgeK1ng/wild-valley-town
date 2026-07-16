@@ -46,7 +46,6 @@
 
 		"levels" : {
 			"base" : {
-				"aiValue" : 20,
 				"targetModifier" : {
 					"smart" : true
 				}
@@ -112,7 +111,7 @@
 						}
 					}
 				},
-				"description" : "{Advanced Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic  by 60%."
+				"description" : "{Advanced Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic by 60%."
 			},
 			"expert" : {
 				"range" : "X",
