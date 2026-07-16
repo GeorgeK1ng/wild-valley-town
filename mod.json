@@ -10,6 +10,10 @@
 		"name" : "Wild Valley town",
 		"description" : "VCMI new town."
 	},
+	"czech" : {
+		"name" : "Divoké údolí",
+		"description" : "Nové město pro VCMI."
+	},
 	"chinese" : {
 		"name" : "荒谷",
 		"description" : "新城镇荒谷"
