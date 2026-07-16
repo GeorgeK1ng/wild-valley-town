@@ -1,85 +1,72 @@
 {
-	"fs_pygmyWarrior" : 
-	{
-		"name" :
-		{
+	"fs_pygmyWarrior" : {
+		"name" : {
 			"singular" : "Golden Beetle",
 			"plural" : "Golden Beetles"
 		},
 		"level" : 1,
 		"special" : false,
-		"faction" : "wildvalley", 
-		"cost" : 
-		{
+		"faction" : "wildvalley",
+		"cost" : {
 			"gold" : 60
 		},
 		"fightValue" : 82,
 		"aiValue" : 80,
 		"growth" : 16,
-                "horde" : 8,
+		"horde" : 8,
 		"attack" : 3,
 		"defense" : 5,
 		"hitPoints" : 5,
 		"speed" : 8,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 1,
 			"max" : 3
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 25,
 			"max" : 40
 		},
 		"doubleWide" : false,
-		"abilities" :{
-            "selfluck" : 
-			{ 
+		"abilities" : {
+			"selfluck" : {
 				"type" : "LUCK",
-	            "val" : 1,
-	            "valueType" : "INDEPENDENT_MAX"
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
 			},
-			"canFly" : 
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"lucky" :
-			{
+			"lucky" : {
 				"type" : "LUCK",
 				"val" : 1,
 				"propagator" : "HERO"
 			},
-			"airShield":
-			{
-				"type":"GENERAL_DAMAGE_REDUCTION",
+			"airShield" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeRanged",
 				"val" : 40
 			}
 		},
-		"hasDoubleWeek": false,
-		"graphics" :
-		{
-			
+		"hasDoubleWeek" : false,
+		"graphics" : {
 			"animation" : "wildvalley/battle/creatures/lv1up.def",
 			"map" : "wildvalley/map/creatures/lv1upmap.def",
 			"iconSmall" : "wildvalley/iconsSmall/lv1upsmall.png",
 			"iconLarge" : "wildvalley/iconsBig/lv1uplarge.png",
-			"timeBetweenFidgets" : 1.00,
-			
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"timeBetweenFidgets" : 1.0,
+
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "wildvalley/scarAtt.wav",
-			"defend": "wildvalley/scarDef.wav",
-			"killed": "wildvalley/scarDie.wav",
-			"move": "wildvalley/scarWalk.wav",
-			"wince": "wildvalley/scarHit.wav"
+		"sound" : {
+			"attack" : "wildvalley/scarAtt.wav",
+			"defend" : "wildvalley/scarDef.wav",
+			"killed" : "wildvalley/scarDie.wav",
+			"move" : "wildvalley/scarWalk.wav",
+			"wince" : "wildvalley/scarHit.wav"
 		}
 	}
 }

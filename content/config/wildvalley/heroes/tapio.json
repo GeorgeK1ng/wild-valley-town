@@ -1,12 +1,28 @@
 {
 	"fs_tapio" : {
 		"army" : [
-			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
-			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
-			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+			{
+				"creature" : "fs_pygmy",
+				"max" : 24,
+				"min" : 16
+			},
+			{
+				"creature" : "fs_birdStalker",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "fs_stag",
+				"max" : 4,
+				"min" : 3
+			}
 		],
 		"class" : "runemaster",
-		"spellbook" : [ "protectFire","protectAir","protectWater" ],
+		"spellbook" : [
+			"protectFire",
+			"protectAir",
+			"protectWater"
+		],
 		"images" : {
 			"large" : "wildvalley/heroes/tapio/large.png",
 			"small" : "wildvalley/heroes/tapio/small.png",
@@ -14,27 +30,32 @@
 			"specialtySmall" : "wildvalley/heroes/tapio/ssmall.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "intelligence" },
-			{ "level" : "basic", "skill" : "airMagic" }
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
 		],
 		"specialty" : {
-				"bonuses" : {
-			"magicVulnerability":			{
-				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
-				"subtype" : "immunityBattleWide",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER",
-				"propagator": "BATTLE_WIDE"
-					},
-			"magicVulnerability2":			{
-				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
-				"subtype" : "immunityEnemyHero",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER",
-				"propagator": "BATTLE_WIDE"
-					
-					}
-			}	
+			"bonuses" : {
+				"magicVulnerability" : {
+					"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+					"subtype" : "immunityBattleWide",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE"
+				},
+				"magicVulnerability2" : {
+					"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+					"subtype" : "immunityEnemyHero",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE"
+				}
+			}
 		},
 		"texts" : {
 			"biography" : "Tapio is a very powerful elven wizard, and the attacks on elven villages are most likely related to him, and his ability to remove resistance to magic makes him a target for many powerful forces. By coincidence, Tapio was rescued by the people of the Wild Valley army, and given that he is now in constant danger, he has chosen to live in seclusion with the Wild Valley army.",

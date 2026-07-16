@@ -3,88 +3,151 @@
 		"types" : {
 			"fsSavageVillage" : {
 				"name" : "Greenhouse",
-				"creatures" : [[ "fs_pygmy" ]],
+				"creatures" : [
+					[
+						"fs_pygmy"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "wildvalley/map/pygmy",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"fs_paradise" : {
 				"name" : "Spring Creek",
-				"creatures" : [[ "fs_birdStalker" ]],
+				"creatures" : [
+					[
+						"fs_birdStalker"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "wildvalley/map/paradise",
-						"mask" : [ "VVV", "VVV", "VAB" ]
-
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"fs_forest" : {
 				"name" : "Dump Tomb",
-				"creatures" : [[ "fs_stag" ]],
+				"creatures" : [
+					[
+						"fs_stag"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "wildvalley/map/cavern",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"fs_GodessTemple" : {
 				"name" : "Bug Lady Temple",
-				"creatures" : [[ "fs_priestess" ]],
+				"creatures" : [
+					[
+						"fs_priestess"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "wildvalley/map/priestess",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"fs_SpiderDomain" : {
 				"name" : "Spider Temple",
-				"creatures" : [[ "fs_giantSpider" ]],
+				"creatures" : [
+					[
+						"fs_giantSpider"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "wildvalley/map/temple",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"fs_Stonehenge'sNest" : {
 				"name" : "Hippogriff Nest",
-				"creatures" : [[ "fs_hippogriff" ]],
+				"creatures" : [
+					[
+						"fs_hippogriff"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "wildvalley/map/cliff",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"fs_gudong" : {
 				"name" : "Quiet Oakwood",
-				"creatures" : [[ "fs_Giant" ]],
+				"creatures" : [
+					[
+						"fs_Giant"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "wildvalley/map/forest",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"fs_FieldRuins" : {
 				"name" : "Mantis Temple",
-				"creatures" : [[ "fs_centamonthThrower" ]],
+				"creatures" : [
+					[
+						"fs_centamonthThrower"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "wildvalley/map/ruins",
-						"mask" : [ "VVV", "BBB", "BBA" ]
+						"mask" : [
+							"VVV",
+							"BBB",
+							"BBA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

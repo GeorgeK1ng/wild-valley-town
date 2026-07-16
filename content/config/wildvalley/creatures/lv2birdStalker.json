@@ -1,70 +1,61 @@
 {
-	"fs_birdStalker" : 
-	{
-		"name" :
-		{
+	"fs_birdStalker" : {
+		"name" : {
 			"singular" : "Firefly",
 			"plural" : "Fireflies"
 		},
-		"upgrades":
-		[
-			"fs_skyHunter","fs_lv2upb"
+		"upgrades" : [
+			"fs_skyHunter",
+			"fs_lv2upb"
 		],
 		"level" : 2,
 		"special" : false,
-		"faction" : "wildvalley", 
-		"cost" : 
-		{
+		"faction" : "wildvalley",
+		"cost" : {
 			"gold" : 130
 		},
 		"fightValue" : 120,
 		"aiValue" : 130,
 		"growth" : 9,
-		
+
 		"attack" : 6,
 		"defense" : 4,
 		"hitPoints" : 12,
 		"speed" : 8,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 2,
 			"max" : 3
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 15,
 			"max" : 27
 		},
 		"doubleWide" : false,
 		"abilities" : {
-			"canFly" : 
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			}
 		},
-		"hasDoubleWeek": true,
-		"graphics" :
-		{
+		"hasDoubleWeek" : true,
+		"graphics" : {
 			"animation" : "wildvalley/battle/creatures/lv2.def",
 			"map" : "wildvalley/map/creatures/lv2map.def",
 			"iconSmall" : "wildvalley/iconsSmall/lv2small.png",
 			"iconLarge" : "wildvalley/iconsBig/lv2large.png",
-			"timeBetweenFidgets" : 0.80,
-			
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 19.00,
-				"attack" : 1.00
+			"timeBetweenFidgets" : 0.8,
+
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 19.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "wildvalley/scarAtt.wav",
-			"defend": "wildvalley/scarDef.wav",
-			"killed": "wildvalley/scarDie.wav",
-			"move": "wildvalley/scarWalk.wav",
-			"wince": "wildvalley/scarHit.wav"
+		"sound" : {
+			"attack" : "wildvalley/scarAtt.wav",
+			"defend" : "wildvalley/scarDef.wav",
+			"killed" : "wildvalley/scarDie.wav",
+			"move" : "wildvalley/scarWalk.wav",
+			"wince" : "wildvalley/scarHit.wav"
 		}
 	}
 }

@@ -1,39 +1,108 @@
-{ 
+{
 	"wildvalley" : {
 		"name" : "Wild Valley",
 		"description" : "{Wild Valley}\nAlignment: Neutral, Order\nTerrain: Grasslands\nLocation: Continent - Antagarich, Erathian southern mountain valley\nThe Wild Valley is a medium-sized faction that was created under the leadership of a young fallen nobleman who absorbed war-weary soldiers, homeless women and children, peace-loving artisans, and great elves who had regained their freedom. In the process of consolidating their power, they gained a way to tame the beetles in the wild valley, and thus they had a way to defend themselves in war.",
 		"alignment" : "neutral",
 		"boat" : "boatFortress",
-		"nativeTerrain": "grass",
-		"creatureBackground" : { 
+		"nativeTerrain" : "grass",
+		"creatureBackground" : {
 			"120px" : "wildvalley/creaturebg120px",
 			"130px" : "wildvalley/creaturebg130px"
 		},
 		"town" : {
-			"primaryResource" : "ore", 
+			"primaryResource" : "ore",
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "wildvalley/map/town-capitol.def" },
-					"castle"  : { "animation" : "wildvalley/map/town-castle.def" },
-					"citadel" : { "animation" : "wildvalley/map/town-citadel.def" },
-					"fort"    : { "animation" : "wildvalley/map/town-fort.def" },
-					"village" : { "animation" : "wildvalley/map/town-village.def" }
+					"capitol" : {
+						"animation" : "wildvalley/map/town-capitol.def"
+					},
+					"castle" : {
+						"animation" : "wildvalley/map/town-castle.def"
+					},
+					"citadel" : {
+						"animation" : "wildvalley/map/town-citadel.def"
+					},
+					"fort" : {
+						"animation" : "wildvalley/map/town-fort.def"
+					},
+					"village" : {
+						"animation" : "wildvalley/map/town-village.def"
+					}
 				}
 			},
-			"musicTheme" : ["music/factions/wildvalley"],
+			"musicTheme" : [
+				"music/factions/wildvalley"
+			],
 			"creatures" : [
-				["fs_pygmy","fs_pygmyWarrior"],
-				["fs_birdStalker","fs_skyHunter","fs_lv2upb" ],
-				["fs_stag","fs_highStag"],
-				["fs_priestess", "fs_highPriestess"],
-				["fs_giantSpider", "fs_ancientSpider"],
-				["fs_Giant", "fs_MountainGian","fs_hippogriff", "fs_greatHippogriff"],
-				["fs_centamonthThrower", "fs_centamonthHunter"]
+				[
+					"fs_pygmy",
+					"fs_pygmyWarrior"
+				],
+				[
+					"fs_birdStalker",
+					"fs_skyHunter",
+					"fs_lv2upb"
+				],
+				[
+					"fs_stag",
+					"fs_highStag"
+				],
+				[
+					"fs_priestess",
+					"fs_highPriestess"
+				],
+				[
+					"fs_giantSpider",
+					"fs_ancientSpider"
+				],
+				[
+					"fs_Giant",
+					"fs_MountainGian",
+					"fs_hippogriff",
+					"fs_greatHippogriff"
+				],
+				[
+					"fs_centamonthThrower",
+					"fs_centamonthHunter"
+				]
 			],
 			"guildWindow" : "wildvalley/town/mageguild",
 			"names" : [
@@ -54,52 +123,119 @@
 				"Lanza"
 			],
 			"hallBackground" : "wildvalley/town/TPTHBKCS.bmp",
-            "buildingsIcons": "wildvalley/townhall.def",
+			"buildingsIcons" : "wildvalley/townhall.def",
 			"hallSlots" : [
 				[
-					[ "villageHall","townHall","cityHall","capitol"],
-					[ "fort", "citadel", "castle" ],
-					[ "tavern" ],
-					[ "blacksmith" ]
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
 				],
 				[
-					[ "marketplace","resourceSilo","vault"],
-					[ "mageGuild1","mageGuild2","mageGuild3","mageGuild4" ],
-					[ "face","special"],
-					[ "shipyard" ]
+					[
+						"marketplace",
+						"resourceSilo",
+						"vault"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"face",
+						"special"
+					],
+					[
+						"shipyard"
+					]
 				],
-				[ 
-					[ "hordeLvl1","hordeUpLvl1" ],
-					[ "hordeLvl5","hordeUpLvl5" ],
-									],
 				[
-					[ "dwellingLvl1","dwellingUpLvl1"],
-					[ "dwellingLvl2","dwellingUpLvl2","dwellingUpLvl2b"],
-					[ "dwellingLvl3","dwellingUpLvl3"],
-					[ "dwellingLvl4","dwellingUpLvl4"]
+					[
+						"hordeLvl1",
+						"hordeUpLvl1"
+					],
+					[
+						"hordeLvl5",
+						"hordeUpLvl5"
+					]
 				],
 				[
-					[ "dwellingLvl5","dwellingUpLvl5"],
-					[ "dwellingLvl6","dwellingUpLvl6"],   
-                    [ "dwellingAlternateLvl6","dwellingAlternateUpLvl6"],
-					[ "dwellingLvl7","dwellingUpLvl7"]
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2",
+						"dwellingUpLvl2b"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingAlternateLvl6",
+						"dwellingAlternateUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
 				]
 			],
-			"horde" : [ 0,4 ],
+			"horde" : [
+				0,
+				4
+			],
 			"icons" : {
 				"fort" : {
 					"built" : {
 						"large" : "wildvalley/icons/fortbuildedlarge.bmp",
 						"small" : "wildvalley/icons/fortbuildedsmall.bmp"
 					},
-					"normal" : { "large" : "wildvalley/icons/fortlarge.bmp", "small" : "wildvalley/icons/fortsmall.bmp" }
+					"normal" : {
+						"large" : "wildvalley/icons/fortlarge.bmp",
+						"small" : "wildvalley/icons/fortsmall.bmp"
+					}
 				},
 				"village" : {
 					"built" : {
 						"large" : "wildvalley/icons/hallbuildedlarge.bmp",
 						"small" : "wildvalley/icons/hallbuildedsmall.bmp"
 					},
-					"normal" : { "large" : "wildvalley/icons/halllarge.bmp", "small" : "wildvalley/icons/hallsmall.bmp" }
+					"normal" : {
+						"large" : "wildvalley/icons/halllarge.bmp",
+						"small" : "wildvalley/icons/hallsmall.bmp"
+					}
 				}
 			},
 			"mageGuild" : 4,

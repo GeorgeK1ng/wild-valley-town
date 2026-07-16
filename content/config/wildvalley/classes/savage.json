@@ -1,18 +1,16 @@
 {
-	"savage" :
-	{
+	"savage" : {
 		"animation" : {
-			"battle" : 
-			{
+			"battle" : {
 				"female" : "wildvalley/classes/hermit/battle.def",
-				"male"   : "wildvalley/classes/hermit/battle.def"
+				"male" : "wildvalley/classes/hermit/battle.def"
 			}
 		},
 		"mapObject" : {
 			"templates" : {
-				"default" : { 
+				"default" : {
 					"animation" : "wildvalley/classes/hermit/adventure.def",
-					"editorAnimation": "wildvalley/classes/hermit/adventure.def" 
+					"editorAnimation" : "wildvalley/classes/hermit/adventure.def"
 				}
 			}
 		},
@@ -20,29 +18,25 @@
 		"faction" : "wildvalley",
 		"commander" : "fs_healer",
 		"affinity" : "might",
-		"primarySkills" :
-		{
-			"attack"     : 2,
-			"defence"    : 2,
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 2,
 			"spellpower" : 1,
-			"knowledge"  : 1
+			"knowledge" : 1
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 25,
-			"defence"    : 25,
+		"lowLevelChance" : {
+			"attack" : 25,
+			"defence" : 25,
 			"spellpower" : 25,
-			"knowledge"  : 25
+			"knowledge" : 25
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 30,
-			"defence"    : 30,
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
 			"spellpower" : 20,
-			"knowledge"  : 20
+			"knowledge" : 20
 		},
-		"secondarySkills" :
-		{
+		"secondarySkills" : {
 			"airMagic" : 7,
 			"archery" : 2,
 			"armorer" : 4,
@@ -68,8 +62,7 @@
 			"firstAid" : 5
 		},
 		"defaultTavern" : 4,
-		"tavern" :
-		{
+		"tavern" : {
 			"castle" : 3,
 			"conflux" : 2,
 			"dungeon" : 4,

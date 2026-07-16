@@ -1,24 +1,32 @@
 {
-	"fs_eheca" :
-	{
+	"fs_eheca" : {
 		"class" : "savage",
 		"female" : true,
-		"spellbook" : [ ],
-		"images" :
-		{
+		"spellbook" : [],
+		"images" : {
 			"large" : "wildvalley/heroes/eheca/large.png",
 			"small" : "wildvalley/heroes/eheca/small.png",
 			"specialtyLarge" : "wildvalley/heroes/eheca/slarge.png",
 			"specialtySmall" : "wildvalley/heroes/eheca/ssmall.png"
 		},
-                "army" :
-		[
-			{ "creature" : "fs_pygmy", "max" : 10, "min" : 6 },
-			{ "creature" : "fs_Giant", "max" : 1, "min" : 1 },
-			{ "creature" : "fs_Giant",  "max" : 1, "min" : 1 }
+		"army" : [
+			{
+				"creature" : "fs_pygmy",
+				"max" : 10,
+				"min" : 6
+			},
+			{
+				"creature" : "fs_Giant",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "fs_Giant",
+				"max" : 1,
+				"min" : 1
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "leadership"
@@ -26,21 +34,19 @@
 			{
 				"level" : "basic",
 				"skill" : "tactics"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Eheca",
 			"biography" : "Eheca's parents were hunters, and she grew up in a village near the forest, where every now and then her parents would take her to the town fair to trade their spoils for necessities. But due to the wars of the last few years, the town became turbulent, and they joined the Wild Valley to protect themselves. As a child, Eheca had a great love for trees, so she was perfect for the role of Treants commander in the Wild Valley troops.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Treants or Insectivorous Treants by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Treants",
-				"name" : "Treants",
+				"name" : "Treants"
 			}
 		},
 		"specialty" : {
 			"creature" : "fs_Giant"
-		}		
+		}
 	}
 }

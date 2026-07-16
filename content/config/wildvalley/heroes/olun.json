@@ -1,23 +1,31 @@
 {
-	"fs_olun" :
-	{
+	"fs_olun" : {
 		"class" : "runemaster",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"large" : "wildvalley/heroes/olun/large.png",
 			"small" : "wildvalley/heroes/olun/small.png",
 			"specialtyLarge" : "wildvalley/heroes/olun/slarge.png",
 			"specialtySmall" : "wildvalley/heroes/olun/ssmall.png"
 		},
-                "army" :
-		[
-			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
-			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
-			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		"army" : [
+			{
+				"creature" : "fs_pygmy",
+				"max" : 24,
+				"min" : 16
+			},
+			{
+				"creature" : "fs_birdStalker",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "fs_stag",
+				"max" : 4,
+				"min" : 3
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -25,25 +33,22 @@
 			{
 				"level" : "basic",
 				"skill" : "archery"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Olun",
 			"biography" : "Olun is a downtrodden young noblewoman, one of the four founders of the kingdom Wild Walley. In her early years, when her family was financially stronger, Olun systematically studied magic, and after the founding of the kingdom Wild Walley, she made an outstanding contribution to the creation of the Bug Ladies team, and it was she who led the first legion of Bug Ladies.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Bug Ladies or Bug Lady-Priestesses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Bug Ladies",
-				"name" : "Bug Ladies",
+				"name" : "Bug Ladies"
 			}
 		},
-		"spellbook" :
-		[
-		       "viewEarth"
+		"spellbook" : [
+			"viewEarth"
 		],
 		"specialty" : {
 			"creature" : "fs_priestess"
-		}		
+		}
 	}
 }

@@ -1,161 +1,139 @@
 {
-	"airWeakness":
-	{
-		"type": "combat", 
-		"name": "Air Weakness",
-		"school":
-		{
-			"air": true,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"airWeakness" : {
+		"type" : "combat",
+		"name" : "Air Weakness",
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 2,
-		"power": 10,
-		"defaultGainChance": 3, //Provides generic basic probability parameters
-		"gainChance":
-		{}, //Provide probabilistic parameters by town
- 
- 
+		"level" : 2,
+		"power" : 10,
+		"defaultGainChance" : 3, //Provides generic basic probability parameters
+		"gainChance" : {}, //Provide probabilistic parameters by town
+
 		//forgetfulness animation
-		"animation":{
-			"affect":["C07SPA1"], //Animation
+		"animation" : {
+			"affect" : [
+				"C07SPA1"
+			] //Animation
 			//"projectile":[{"defName":"C07SPA0"}]//???
 		},
- 
-		"flags" : {"negative": true},
- 
- 
-		"graphics":
-		{
-			"iconBook": "wildvalley/spells/airWeakness1.bmp", //魔法书中图标
-			"iconScroll": "wildvalley/spells/airWeakness2.bmp", //卷轴中图标
-			"iconScenarioBonus": "wildvalley/spells/airWeakness3.bmp", //预览中图标
-			"iconEffect": "wildvalley/spells/airWeakness4.bmp" //受身图标
+
+		"flags" : {
+			"negative" : true
+		},
+
+		"graphics" : {
+			"iconBook" : "wildvalley/spells/airWeakness1.bmp", //魔法书中图标
+			"iconScroll" : "wildvalley/spells/airWeakness2.bmp", //卷轴中图标
+			"iconScenarioBonus" : "wildvalley/spells/airWeakness3.bmp", //预览中图标
+			"iconEffect" : "wildvalley/spells/airWeakness4.bmp" //受身图标
 			//免疫图标"iconImmune": "NewOldSpells/confusionImmune.bmp"
 		},
 
-		"sounds":
-		{
-			"cast": "DISRUPTR" //音效
+		"sounds" : {
+			"cast" : "DISRUPTR" //音效
 		},
 		"counters" : {
-			"spell.protectAir": true
+			"spell.protectAir" : true
 		},
 		"targetType" : "CREATURE",
 		"targetCondition" : {
 			"allOf" : {}
 		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"aiValue": 20,
-				"targetModifier":
-				{
-					"smart": true
-				}	
-			},
-			"none":
-			{
-				"range": "0",
-				"power": 1,
-				"cost": 12, //法力消耗
 
-				"battleEffects":{
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": false,
-					"bonus":
-					{
-					"lifeEffect":
-                    {
-                        "type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.air",
-						"val" : -20, 
-						"duration" : "N_TURNS"
-					}
+		"levels" : {
+			"base" : {
+				"aiValue" : 20,
+				"targetModifier" : {
+					"smart" : true
 				}
-			}
-				},
-				"description": "{Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic by 20%."
 			},
-			"basic":
-			{
-				"range": "0",
-				"power": 1,
-				"cost": 10, //法力消耗
+			"none" : {
+				"range" : "0",
+				"power" : 1,
+				"cost" : 12, //法力消耗
 
-				"battleEffects":{
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": false,
-					"bonus":
-					{
-					"lifeEffect":
-                    {
-                        "type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.air",
-						"val" : -40, 
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"lifeEater" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeEffect" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.air",
+								"val" : -20,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
-				}
-			}
 				},
-				"description": "{Basic Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic by 40%."
+				"description" : "{Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic by 20%."
 			},
-			"advanced":
-			{
-				"range": "0",
-				"power": 1,
-				"cost": 10, //法力消耗
+			"basic" : {
+				"range" : "0",
+				"power" : 1,
+				"cost" : 10, //法力消耗
 
-				"battleEffects":{
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": false,
-					"bonus":
-					{
-					"lifeEffect":
-                    {
-                        "type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.air",
-						"val" : -60, 
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"lifeEater" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeEffect" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.air",
+								"val" : -40,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
-				}
-			}
 				},
-				"description": "{Advanced Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic  by 60%."
+				"description" : "{Basic Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic by 40%."
 			},
-			"expert":
-			{
-				"range": "X",
-				"power": 1,
-				"cost": 10, //法力消耗
+			"advanced" : {
+				"range" : "0",
+				"power" : 1,
+				"cost" : 10, //法力消耗
 
-				"battleEffects":{
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": false,
-					"bonus":
-					{
-					"lifeEffect":
-                    {
-                        "type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.air",
-						"val" : -60, 
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"lifeEater" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeEffect" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.air",
+								"val" : -60,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
-				}
-			}
 				},
-				"description": "{Expert Air Weakness}\n\nReduces all enemy units spell damage reduction for air magic by 60%."
+				"description" : "{Advanced Air Weakness}\n\nReduces the selected enemy unit's spell damage reduction for air magic  by 60%."
+			},
+			"expert" : {
+				"range" : "X",
+				"power" : 1,
+				"cost" : 10, //法力消耗
+
+				"battleEffects" : {
+					"lifeEater" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeEffect" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.air",
+								"val" : -60,
+								"duration" : "N_TURNS"
+							}
+						}
+					}
+				},
+				"description" : "{Expert Air Weakness}\n\nReduces all enemy units spell damage reduction for air magic by 60%."
 			}
 		}
 	}

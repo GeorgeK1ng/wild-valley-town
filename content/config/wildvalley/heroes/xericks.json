@@ -1,23 +1,31 @@
 {
-	"fs_xericks" :
-	{
+	"fs_xericks" : {
 		"class" : "savage",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"large" : "wildvalley/heroes/xericks/large.png",
 			"small" : "wildvalley/heroes/xericks/small.png",
 			"specialtyLarge" : "wildvalley/heroes/xericks/slarge.png",
 			"specialtySmall" : "wildvalley/heroes/xericks/ssmall.png"
 		},
-                "army" :
-		[
-			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
-			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 },
-			{ "creature" : "fs_stag",  "max" : 3, "min" : 2 }
+		"army" : [
+			{
+				"creature" : "fs_pygmy",
+				"max" : 24,
+				"min" : 16
+			},
+			{
+				"creature" : "fs_stag",
+				"max" : 4,
+				"min" : 3
+			},
+			{
+				"creature" : "fs_stag",
+				"max" : 3,
+				"min" : 2
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tactics"
@@ -25,21 +33,19 @@
 			{
 				"level" : "basic",
 				"skill" : "offence"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Xericks",
 			"biography" : "Xericks, to escape the pursuit of her enemies, joined the Wild Valley with her family. What she didn't expect was that it would become an opportunity for revenge later. The Wild Valley army makes up for the lack of soldiers to protect the safety of every resident, especially the Idol of the Bug God. Due to her pastoral methods, Xericks took special attention, and became the best commander of the Tomb Bettles by right.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Tomb Bettles or Tomb Bettle-Stags by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Tomb Bettles",
-				"name" : "Tomb Bettles",
+				"name" : "Tomb Bettles"
 			}
 		},
 		"specialty" : {
 			"creature" : "fs_stag"
-		}		
+		}
 	}
 }

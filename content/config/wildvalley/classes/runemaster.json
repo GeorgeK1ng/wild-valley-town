@@ -1,18 +1,16 @@
 {
-	"runemaster" :
-	{
+	"runemaster" : {
 		"animation" : {
-			"battle" : 
-			{
+			"battle" : {
 				"female" : "wildvalley/classes/runemaster/battle.def",
-				"male"   : "wildvalley/classes/runemaster/battle.def"
+				"male" : "wildvalley/classes/runemaster/battle.def"
 			}
 		},
 		"mapObject" : {
 			"templates" : {
-				"default" : { 
+				"default" : {
 					"animation" : "wildvalley/classes/runemaster/adventure.def",
-					"editorAnimation": "wildvalley/classes/runemaster/adventure.def" 
+					"editorAnimation" : "wildvalley/classes/runemaster/adventure.def"
 				}
 			}
 		},
@@ -20,29 +18,25 @@
 		"faction" : "wildvalley",
 		"commander" : "fs_healer",
 		"affinity" : "magic",
-		"primarySkills" :
-		{
-			"attack"     : 0,
-			"defence"    : 1,
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
 			"spellpower" : 2,
-			"knowledge"  : 2
+			"knowledge" : 2
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 20,
-			"defence"    : 20,
+		"lowLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
 			"spellpower" : 30,
-			"knowledge"  : 30
+			"knowledge" : 30
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 20,
-			"defence"    : 20,
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
 			"spellpower" : 25,
-			"knowledge"  : 35
+			"knowledge" : 35
 		},
-		"secondarySkills" :
-		{
+		"secondarySkills" : {
 			"airMagic" : 9,
 			"armorer" : 8,
 			"diplomacy" : 5,
@@ -68,8 +62,7 @@
 			"firstAid" : 5
 		},
 		"defaultTavern" : 2,
-		"tavern" :
-		{
+		"tavern" : {
 			"castle" : 0,
 			"conflux" : 4,
 			"dungeon" : 2,

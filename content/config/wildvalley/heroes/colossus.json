@@ -1,23 +1,31 @@
 {
-	"fs_colossus" :
-	{
+	"fs_colossus" : {
 		"class" : "savage",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"large" : "wildvalley/heroes/colossus/large.png",
 			"small" : "wildvalley/heroes/colossus/small.png",
 			"specialtyLarge" : "wildvalley/heroes/colossus/slarge.png",
 			"specialtySmall" : "wildvalley/heroes/colossus/ssmall.png"
 		},
-                "army" :
-		[
-			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
-			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
-			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		"army" : [
+			{
+				"creature" : "fs_pygmy",
+				"max" : 24,
+				"min" : 16
+			},
+			{
+				"creature" : "fs_birdStalker",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "fs_stag",
+				"max" : 4,
+				"min" : 3
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -25,21 +33,19 @@
 			{
 				"level" : "basic",
 				"skill" : "scouting"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Colossus",
 			"biography" : "The war left Colossus without parents, and as a teenager she had to go out into society to earn a living. Luckily, she had an older brother who kept her safe from bullying. After a few years of such an uneasy life in the city, one day she meets a group of young men traveling south in search of a new peaceful place to live. The ideas of the young men impressed Colossus and she joined the army and later, continuing to work hard, she grew up to become commander of the Giant Spiders.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Giant Spiders or Ancient Spiders by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Giant Spiders",
-				"name" : "Giant Spiders",
+				"name" : "Giant Spiders"
 			}
 		},
 		"specialty" : {
 			"creature" : "fs_giantSpider"
-		}		
+		}
 	}
 }

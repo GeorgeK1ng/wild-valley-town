@@ -1,9 +1,21 @@
 {
 	"rn_moss" : {
 		"army" : [
-			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
-			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
-			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+			{
+				"creature" : "fs_pygmy",
+				"max" : 24,
+				"min" : 16
+			},
+			{
+				"creature" : "fs_birdStalker",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "fs_stag",
+				"max" : 4,
+				"min" : 3
+			}
 		],
 		"class" : "savage",
 		"images" : {
@@ -13,23 +25,29 @@
 			"specialtySmall" : "wildvalley/heroes/moss/ssmall.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "logistics" },
-			{ "level" : "basic", "skill" : "tactics" }
-		],
-		"specialty" : 
-			{				
-				"bonuses" : {
-					"stacksSpeed" :
-					{
-						"addInfo" : 0,
-						"propagator": "BATTLE_WIDE",
-					    "propagationUpdater" : "BONUS_OWNER_UPDATER",
-						"limiters" : [ "OPPOSITE_SIDE" ],
-						"type" : "STACKS_SPEED",
-						"val" : -1,
-					}
-				}
+			{
+				"level" : "basic",
+				"skill" : "logistics"
 			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stacksSpeed" : {
+					"addInfo" : 0,
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					],
+					"type" : "STACKS_SPEED",
+					"val" : -1
+				}
+			}
+		},
 		"texts" : {
 			"biography" : "Moss knows how to use the terrain to set various traps to slow down the enemy and win the battle. On this mission to free the captured elves, Moss did his best and accomplished the mission with great difficulty. He is a close friend of Taloc, so he also joined the Wild Valley army.",
 			"name" : "Moss",

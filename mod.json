@@ -4,17 +4,15 @@
 	"author" : "红枫居士",
 	"contact" : "http://vcmi.eu/",
 	"version" : "0.6.0",
-	"language":"english",
+	"language" : "english",
 	//"depends" : ["tidesofWar"],
-	"english":  
-	{
-		"name": "Wild Valley town",
-		"description": "VCMI new town."
-	}, 
-	"chinese":
-	{
-		"name": "荒谷",
-		"description": "新城镇荒谷"
+	"english" : {
+		"name" : "Wild Valley town",
+		"description" : "VCMI new town."
+	},
+	"chinese" : {
+		"name" : "荒谷",
+		"description" : "新城镇荒谷"
 	},
 	"modType" : "Town",
 	"factions" : [
@@ -25,8 +23,7 @@
 		"config/wildvalley/town/structures.json",
 		"config/wildvalley/town/puzzle.json"
 	],
-	"creatures" :
-	[		
+	"creatures" : [
 		"config/wildvalley/creatures/lv1pygmy.json",
 		"config/wildvalley/creatures/lv1upygmyWarrior.json",
 		"config/wildvalley/creatures/lv2birdStalker.json",
@@ -37,7 +34,7 @@
 		"config/wildvalley/creatures/lv4priestess.json",
 		"config/wildvalley/creatures/lv4uhighPriestess.json",
 		"config/wildvalley/creatures/lv5giantSpider.json",
-		"config/wildvalley/creatures/lv5uancientSpider.json",		
+		"config/wildvalley/creatures/lv5uancientSpider.json",
 		"config/wildvalley/creatures/lv6Giant.json",
 		"config/wildvalley/creatures/lv6umountainGian.json",
 		"config/wildvalley/creatures/lv6bhippogriff.json",
@@ -47,14 +44,11 @@
 		"config/wildvalley/creatures/comhealer.json",
 		"config/wildvalley/creatures/stack_exp.json"
 	],
-	"heroClasses" :
-	[
-
+	"heroClasses" : [
 		"config/wildvalley/classes/runemaster.json",
 		"config/wildvalley/classes/savage.json"
 	],
-	"heroes" :
-	[
+	"heroes" : [
 		"config/wildvalley/heroes/abok.json",
 		"config/wildvalley/heroes/aker.json",
 		"config/wildvalley/heroes/aodh.json",
@@ -78,8 +72,7 @@
 		"config/wildvalley/heroes/xericks.json",
 		"config/wildvalley/heroes/wrlik.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/wildvalley/NewOldSpells/airWeak.json",
 		"config/wildvalley/NewOldSpells/airWeakness.json",
 		"config/wildvalley/NewOldSpells/earthWeakness.json",
@@ -88,7 +81,7 @@
 		"config/wildvalley/NewOldSpells/counterProtectX.json",
 		"config/wildvalley/NewOldSpells/lightningForce.json"
 	],
-	"objects" : [ 
+	"objects" : [
 		"config/wildvalley/dwellings"
 	]
 }
